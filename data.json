@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "name": "Running Shoes",
+      "description": "These shoes are perfect for running and jogging.",
+      "brand": "Nike",
+      "volume": "10",
+      "price": "100",
+      "color": "Red",
+      "available_sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "image": "https://example.com/images/running_shoes.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sneakers",
+      "description": "These sneakers are stylish and comfortable.",
+      "brand": "Adidas",
+      "volume": "15",
+      "price": "80",
+      "color": "Blue",
+      "available_sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "image": "https://example.com/images/sneakers.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dress Shoes",
+      "description": "These shoes are perfect for formal occasions.",
+      "brand": "Cole Haan",
+      "volume": "5",
+      "price": "150",
+      "color": "Black",
+      "available_sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "image": "https://example.com/images/dress_shoes.jpg"
+    }
+  ]
