@@ -1,85 +1,103 @@
+
 # Low Code Nirvana
 
 [![RunCode](https://runcode-app-public.s3.amazonaws.com/images/dark_btn.png)](https://runcode.io/)
 
-Product API 
 
-This is a Node.js Express app that serves a list of products to the Bubble frontend. The app provides endpoints for the CRUD operations of products. 
+# Introduction
 
-Getting Started 
+Want to create an application to solve a real-life problem in a few hours? Accept our Challenge! 
 
-These instructions will get you a copy of the project up and running on runcode.io for development and testing purposes. 
+ Parentheses Labs & Runcode.io brings to you the Low code Nirvana - a unique low code Hackathon that will bring out the most innovative and creative you.  
 
-Click on the “Open in RunCode” button in https://github.com/parentheseslabs/iit-low-code-nirvana/ to launch the basic express app that you can work on. 
+# Parentheses Labs 
+provides Low code solutions to small and medium businesses for automating their workflows. We are partnered with several low code technology platforms like Stripe, Big commerce and Bubble.io to create custom solutions to reduce operating cost and improve efficiency. Our objective is to make Low code Technology more affordable and accessible to everyone. 
 
-Now, you can see the workspace in your runcode dashboard. 
+# RunCode.io
+ is a cloud development environment with a vision to provide a ready to click development environment with a click of a button. You can spin up the online development environment in seconds. With a focus on security, performance, real-time collaboration, reliability, portability. RunCode supports vast Linux-based programming languages and frameworks thereby opening up a world of opportunities for the code-indulgent folks. 
 
-You can share/start/stop/delete it. 
+Hackathon comprises of two parts. 
 
-Every workspace is a vscode in the browser, you can install, configure, and run your code in the vscode terminal. 
+ 1. An Online MCQ -test – Weightage 20 % 
+ 2. Problem statement – Weightage 80 % 
 
-You need to run the code with “npm run start” and then you can see the output in this format https://<port>-<workspace_domain>/ for example if your workspace domain is fancy-sunset-87165010.eu-ws3.runcode.io and you are running the code on port 3000 then your output will be on https://3000-fancy-sunset-87165010.eu-ws3.runcode.io 
+Backend on node express built on RunCode to be ready before the d-Day 
+On the d-Day the participants create the Bubble Front end. 
+Finals – Top 5 candidates are selected to present their work. Winners TBD.
 
-The boilerplate code having basic routes, you need to write complete code. 
+# Round 1 Online Test Link
+[https://triplebyte.com/wt/parentheses-1/start/1sZA4sUWgHm/68c75](https://triplebyte.com/wt/parentheses-1/start/1sZA4sUWgHm/68c75)
 
-You can use “thunder client” (vscode extension) or postman to test the API 
 
-If you have any questions about runcode, get in touch with community support at https://discord.com/invite/runcode/ 
+# Round 2 Problem statement
 
-API Endpoints 
+## Product API
 
-The following endpoints are available for the app: 
+This is a Node.js Express app that serves a list of products to the Bubble frontend. The app provides endpoints for the CRUD operations of products.
 
-GET /products : Returns a list of all products 
+## Getting Started
 
-GET /products/:id : Returns a single product with specified id 
+These instructions will get you a copy of the project up and running on runcode.io for development and testing purposes.
 
-POST /products : Creates a new product 
+1.  Click on the “Open in RunCode” button  in https://github.com/parentheseslabs/iit-low-code-nirvana/ to launch the basic express app that you can work on.
+2.  Now, you can see the workspace in your runcode dashboard.
+3.  You can share/start/stop/delete it.
+4.  Every workspace is a vscode in the browser, you can install, configure, and run your code in the vscode terminal.
+5.  You need to run the code with “npm run start” and then you can see the output in this format https://<port>-<workspace_domain>/ for example if your workspace domain is [fancy-sunset-87165010.eu-ws3.runcode.io](https://fancy-sunset-87165010.eu-ws3.runcode.io/?tkn=553940de2b6d490babcdd07c6163b746) and you are running the code on port 3000 then your output will be on https://3000-fancy-sunset-87165010.eu-ws3.runcode.io
+6.  The boilerplate code having basic routes, you need to write complete code.
+7.  You can use “thunder client” (vscode extension) or postman to test the API
+    
 
-PUT /products/:id : Updates a product with the specified id 
+If you have any questions about runcode, get in touch with community support at https://discord.com/invite/runcode/
 
-DELETE /products/:id : Deletes a product with the specified id 
+## API Endpoints
 
-Built With 
+The following endpoints are available for the app:
 
-Node.js - JavaScript runtime 
+-   GET /products : Returns a list of all products
+-   GET /products/:id : Returns a single product with specified id
+-   POST /products : Creates a new product
+-   PUT /products/:id : Updates a product with the specified id 
+-   DELETE /products/:id : Deletes a product with the specified id
+    
 
-Express - Web framework for Node.js 
+Built With
 
-npm - Dependency management 
+-   [Node.js](https://nodejs.org/) - JavaScript runtime
+-   [Express](https://expressjs.com/) - Web framework for Node.js
+-   [npm](https://www.npmjs.com/) - Dependency management
+    
+## Data
+Json data link [https://jsonblob.com/1069249464195366912](https://jsonblob.com/1069249464195366912)
 
- 
+## Bubble.io Frontend
 
-Json data link https://jsonblob.com/1069249464195366912. This is a sample data. Feel free to use your own data if you wish to. 
+**User persona**
 
-Final Hackathon day 
+1.  Admin  
+2.  User
+   
+Admin-  Signup/ Login redirects to landing page which displays the list of products and the quantities in which they are available.  The page will reflect the number of products available in the inventory.
 
-Making a Bubble.io Frontend- 
+**From this page**
 
-User persona- 
+1.  They can create a product
+2.  Edit the product (Quantity and description)
+3.  Delete a product
+    
 
-Admin 
+Any changes in the bubble app should be able to change the original database
 
-User 
+**Customer**
 
-Admin- Signup/ Login redirects to landing page which displays the list of products and the quantities in which they are available.  The page will reflect the number of products available in the inventory. 
+After login/ Sign up page the customer can view all the product listings with the real time quantity and description. They can add products into a cart (more than one) and order the product (No need to create workflows for product ordering).
 
-From this page 
+A customer order should be able to decrease the quantity of product in the original inventory.
 
-They can create a product  
+# Submission
+https://forms.office.com/r/S2BfPfHARY
+# Contact
+Please drop a line if you need help with anything
+kusumika@prativa.in
+kalyani@runcode.io
 
-Edit the product (Quantity and description) 
-
-Delete a product 
-
-Any changes in the bubble app should be able to change the original database 
-
-Customer- 
-
-After login/ Sign up page the customer can view all the product listings with the real time quantity and description. They can add products into a cart (more than one) and order the product (No need to create workflows for product ordering).  
-
-A customer order should be able to decrease the quantity of product in the original inventory. 
-
-Submission- 
-
-The submission links for viewing the platform has to be generated from bubble.io nd shared along with the username and password required to view the platform.
