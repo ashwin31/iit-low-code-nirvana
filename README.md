@@ -30,15 +30,15 @@ API Endpoints
 
 The following endpoints are available for the app: 
 
-GET /products: Returns a list of all products 
+GET /products : Returns a list of all products 
 
-GET /products/:id: Returns a single product with specified id 
+GET /products/:id : Returns a single product with specified id 
 
-POST /products: Creates a new product 
+POST /products : Creates a new product 
 
-PUT /products/:id: Updates a product with the specified id 
+PUT /products/:id : Updates a product with the specified id 
 
-DELETE /products/:id: Deletes a product with the specified id 
+DELETE /products/:id : Deletes a product with the specified id 
 
 Built With 
 
